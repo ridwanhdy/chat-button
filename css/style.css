@@ -1,0 +1,33 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+}
+
+.container {
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 400px;
+  height: 100px;
+  background-color: antiquewhite;
+}
+
+.container > img {
+  margin-left: 20px;
+  width: 80px;
+}
+
+.text-content {
+  margin-left: 20px;
+  align-items: center;
+}
+
+.p-text {
+  color: rgb(79, 66, 109);
+  margin-top: -15px;
+}
